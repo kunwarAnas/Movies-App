@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-card{
+  width: 100vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: relative;
+  height: 70vh;
+  color: white;
+}
+
+.banner-img{
+  height: 70vh;
+  width: 100vw;
+}
+
+.banner-title{
+  position: absolute;
+  top:45vh;
+  left : 5vw;
+}
+.banner-text{
+  position: absolute;
+  top: 50vh;
+  left: 5vw;
+  height: 4.5rem;
+  overflow: hidden;
+
+}
+
+.movieslist{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+.movies-card{
+  width: 20vw;
+  height: 30vh;
+  margin: 4rem;
+  position: relative;
+}
+
+.movies-title{
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: white;
+}
+.movie-btn{
+  position: absolute;
+  bottom: 1rem;
+  
+}
+
+.fav-genre-list{
+  padding: 3rem;
+}
+
+.fav-input-text{
+  padding: 3rem;
+}
+
+@media screen and (max-width:400px) {
+  .banner-card{
+    height: 40vh;
+  }
+  .banner-title{
+    top:20vh;
+    left: 5vw;
+  }
+  .banner-text{
+    top: 25vh;
+  }
+}
